@@ -1,0 +1,16 @@
+main{
+    text-align: center;
+}
+.page-container{
+    display: inline-block;
+    margin-top: 100px;
+    width: 60%;
+    border: red 1px solid;
+}
+
+.page-container table {
+    width: 100%;
+}
+
+.page-container table th {
+}
