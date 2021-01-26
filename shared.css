@@ -41,13 +41,13 @@ body{
 .main-nav__list{
     margin: 0 1rem;
     list-style: none;
+    text-align: center;
 }
 
 .main-nav__elt{
     display: inline-block;
     margin: 0 0.75rem;
     font-family: 'Hachi Maru Pop', cursive;
-    padding-left: 25%; 
     
 }
 
