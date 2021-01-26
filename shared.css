@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 2000px;
+    background:  rgb(197,203,227);
+}
+
+.main-header {
+    background-color: rgba(239,225,186,1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-header  div {
+    display: inline-block;
+    vertical-align: middle; 
+    height: 50px;
+}
+
+.main-header__logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.main-header__logo img {
+    height: 100%;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: left;
+    width: calc(100% - 217px);
+    vertical-align: middle;
+}
+
+.main-nav__list{
+    margin: 0 16px;
+    list-style: none;
+}
+
+.main-nav__elt{
+    display: inline-block;
+    margin: 0 12px;
+    font-family: 'Hachi Maru Pop', cursive;
+    padding-left: 25%; 
+    
+}
+
+.main-nav__elt a {
+    font-size: 25px;
+    color: rgb(64,86,161);
+    text-decoration: none;
+    padding: 12px 5px 5px 5px;
+}
+
+.main-nav__elt a:hover,
+.main-nav__elt a:active{
+    
+    border-bottom: 2px solid rgb(64,86,161);
+}
