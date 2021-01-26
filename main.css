@@ -1,8 +1,8 @@
 .work{
-    margin-top : 50px;
+    margin-top : 3rem;
 }
 .work:first-of-type{
-    margin-top : 100px;
+    margin-top : 6.5rem;
 }
 
 .work__img-container{
@@ -14,7 +14,7 @@
     /* margin-bottom: 25px; */
 }
 .work__img-container:last-of-type{
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
 }
 
 .work:nth-child(even){
@@ -46,18 +46,18 @@
 .work__info__title{
     font-family: 'Hachi Maru Pop', cursive;
     color: rgb(241,60,31);
-    margin: 3px;
+    margin: 0.2rem;
 }
 
 .work__info__year{
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(64,86,161);
     font-weight: bold;
-    margin: 0px;
+    margin: 0;
 }
 
 .work__info__text{
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 0px;
+    margin: 0;
     color: rgb(64,86,161);
 }

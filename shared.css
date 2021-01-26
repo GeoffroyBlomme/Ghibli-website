@@ -4,7 +4,6 @@
 
 body{
     margin: 0;
-    height: 2000px;
     background:  rgb(197,203,227);
 }
 
@@ -20,7 +19,7 @@ body{
 .main-header  div {
     display: inline-block;
     vertical-align: middle; 
-    height: 50px;
+    height: 3rem;
 }
 
 .main-header__logo {
@@ -40,23 +39,23 @@ body{
 }
 
 .main-nav__list{
-    margin: 0 16px;
+    margin: 0 1rem;
     list-style: none;
 }
 
 .main-nav__elt{
     display: inline-block;
-    margin: 0 12px;
+    margin: 0 0.75rem;
     font-family: 'Hachi Maru Pop', cursive;
     padding-left: 25%; 
     
 }
 
 .main-nav__elt a {
-    font-size: 25px;
+    font-size: 1.5rem;
     color: rgb(64,86,161);
     text-decoration: none;
-    padding: 12px 5px 5px 5px;
+    padding : 0.75rem 0.3rem 0.3rem 0.3rem;
 }
 
 .main-nav__elt a:hover,
