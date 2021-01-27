@@ -5,6 +5,7 @@
 body{
     margin: 0;
     background:  rgb(197,203,227);
+
 }
 
 .main-header {
@@ -14,28 +15,27 @@ body{
     left: 0;
     width: 100%;
     z-index: 1;
-}
-
-.main-header  div {
-    display: inline-block;
-    vertical-align: middle; 
+    /* border: 1px red solid; */
     height: 3rem;
 }
 
-.main-header__logo {
+.main-header__logo-container{
     display: inline-block;
+    position: absolute;
+    right: 0;
+    vertical-align: middle; 
     height: 100%;
+    text-align: right;
+    /* width: calc(100% - 66px); */
 }
+
 
 .main-header__logo img {
     height: 100%;
 }
 
 .main-nav {
-    display: inline-block;
-    text-align: left;
-    width: calc(100% - 217px);
-    vertical-align: middle;
+    display:none;
 }
 
 .main-nav__list{
@@ -62,4 +62,44 @@ body{
 .main-nav__elt a:active{
     
     border-bottom: 2px solid rgb(64,86,161);
+}
+
+.hamburger-menu{
+
+    height: 3rem;
+    padding: 0.5rem 0;
+    float: left;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+.hamburger-menu a img {
+    height: 2rem;
+    
+}
+
+
+#second-logo{
+    display: none;
+}
+
+@media (min-width:40rem){
+    .main-header__logo-container{
+        position: static;
+    }
+    .main-nav {
+    display: inline-block;
+    text-align: left;
+    width: calc(100% - 217px);
+    vertical-align: middle;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+    #second-logo {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+    }
 }
