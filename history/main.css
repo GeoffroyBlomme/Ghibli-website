@@ -3,8 +3,8 @@ main{
 }
 .page-container{
     display: inline-block;
-    margin-top: 100px;
-    width: 60%;
+    margin-top: 5rem;
+    width: 100%;
 }
 
 .page-container table {
@@ -22,7 +22,7 @@ main{
 }
 
 .main__table__header-row th {
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'Hachi Maru Pop', cursive;
     color: rgb(64,86,161);
     border-bottom: 3px solid rgb(64,86,161);
@@ -53,4 +53,11 @@ main{
 
 .main__table__text:nth-child(odd){
     border-right: 3px solid rgb(64,86,161);
+}
+
+@media (min-width:40rem){
+    .page-container table {
+        width: 70%;
+        margin: auto;
+    }
 }
