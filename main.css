@@ -62,11 +62,11 @@
 
 @media (min-width:40rem){
 
-
+    
     .work:nth-of-type(even){
         display: flex;
     }
-    
+
     .work:nth-of-type(even) .work__img-container{
         order: 2;
         height: auto;
@@ -87,6 +87,10 @@
         width: 60%;
         display: inline-block;
         padding: 0px;
+    }
+
+    .work:nth-of-type(even) .work__img-container{
+        box-shadow: -2px 2px 2px 2px rgba(0,0,0,0.5);
     }
 
     .work__info{
