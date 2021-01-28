@@ -8,14 +8,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./shared.css">
     <link rel="stylesheet" href="./main.css">
+    <script src="../script.js"></script>
     <title>Ghibli</title>
 </head>
 <body>
+    
     <header class="main-header">
         <div class="main-header__logo-container">
-            <a class="main-header__logo" href="#">
+            <a class="main-header__logo" href="./index.html">
                 <img src="./images/1200px-Studio_Ghibli_logo.svg.png" alt="">
             </a>
+        </div>
+        <div class="hamburger-menu">
+            <img src="./images/iconfinder_menu-alt_134216.png" alt="">
         </div>
         <nav class="main-nav">
             <ul class="main-nav__list">
@@ -29,15 +34,11 @@
             </ul>
         </nav>
         <div id="second-logo" class="main-header__logo-container">
-            <a class="main-header__logo" href="#">
+            <a class="main-header__logo" href="./index.html">
                 <img src="./images/1200px-Studio_Ghibli_logo.svg2.png" alt="">
             </a>
         </div>
-        <div class="hamburger-menu">
-            <a href="">
-                <img src="./images/iconfinder_menu-alt_134216.png" alt="">
-            </a>
-        </div>
+        
     </header>
     <main>
     <div class="container">
@@ -120,5 +121,17 @@
         </div>
     </div>
     </main>
+    <div class="modal"><span class="modal__close-button">&times;</span>
+        <ul class="modal__list">
+            <li class="modal__elt">
+                <a href="./index.html">Showcases</a>
+            
+            </li>
+            <li class="modal__elt">
+                <a href="./history/index.html">History</a>
+            
+            </li>
+            
+        </ul></div>
 </body>
 </html>
