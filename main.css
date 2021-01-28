@@ -65,6 +65,7 @@
     
     .work:nth-of-type(even){
         display: flex;
+        align-items: center;
     }
 
     .work:nth-of-type(even) .work__img-container{
