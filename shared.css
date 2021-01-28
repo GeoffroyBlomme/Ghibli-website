@@ -8,14 +8,60 @@ body{
 
 }
 
+.modal{
+    display: none;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal__list{
+    background-color: rgb(49,49,54);
+    list-style: none; 
+    height: 9rem;
+    margin-top: 50%;
+    padding: 0;
+}
+
+.modal__elt{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.modal__elt a {
+    font-size: 2rem;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.modal span{
+    z-index: 2000;
+    font-size: 4rem;
+    color: rgb(214, 214, 214);
+    position: absolute;
+    right: 0;
+    margin: 1rem 1rem;
+}
+
+.modal span:hover,
+.modal span:active{
+    color: red;
+}
+
 .main-header {
     background-color: rgba(239,225,186,1);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
-    /* border: 1px red solid; */
+    z-index: 5;
     height: 3rem;
 }
 
@@ -35,7 +81,8 @@ body{
 }
 
 .main-nav {
-    display:none;
+    display: none;
+    z-index: 101;
 }
 
 .main-nav__list{
@@ -46,6 +93,7 @@ body{
 
 .main-nav__elt{
     display: inline-block;
+    color: ;
     margin: 0 0.75rem;
     font-family: 'Hachi Maru Pop', cursive;
     
@@ -53,7 +101,7 @@ body{
 
 .main-nav__elt a {
     font-size: 1.5rem;
-    color: rgb(64,86,161);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding : 0.75rem 0.3rem 0.3rem 0.3rem;
 }
@@ -65,16 +113,14 @@ body{
 }
 
 .hamburger-menu{
-
     height: 3rem;
     padding: 0.5rem 0;
-    float: left;
     vertical-align: middle;
     display: inline-block;
     
 }
 
-.hamburger-menu a img {
+.hamburger-menu img {
     height: 2rem;
     
 }
@@ -88,12 +134,7 @@ body{
     .main-header__logo-container{
         position: static;
     }
-    .main-nav {
-    display: inline-block;
-    text-align: left;
-    width: calc(100% - 217px);
-    vertical-align: middle;
-    }
+    
     .hamburger-menu{
         display: none;
     }
@@ -101,5 +142,43 @@ body{
         display: inline-block;
         position: absolute;
         right: 0;
+    }
+
+    .modal {
+        display: none;
+        background-color: transparent;
+    }
+
+    .main-nav {
+        display: inline-block;
+        text-align: left;
+        width: calc(100% - 217px);
+        vertical-align: middle;
+    }
+
+    .main-nav__list{
+        margin: 0 1rem;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .main-nav__elt{
+        display: inline-block;
+        margin: 0 0.75rem;
+        font-family: 'Hachi Maru Pop', cursive;
+        
+    }
+    
+    .main-nav__elt a {
+        font-size: 1.5rem;
+        color: rgb(64,86,161);
+        text-decoration: none;
+        padding : 0.75rem 0.3rem 0.3rem 0.3rem;
+    }
+    
+    .main-nav__elt a:hover,
+    .main-nav__elt a:active{
+        
+        border-bottom: 2px solid rgb(64,86,161);
     }
 }
