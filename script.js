@@ -17,7 +17,7 @@ function openSideMenu(){
 }
 
 function openModal(){
-    modal.style.display = "block";
+    modal.style.display = "flex";
     document.querySelector("body").style.overflow ="hidden";
 }
 
