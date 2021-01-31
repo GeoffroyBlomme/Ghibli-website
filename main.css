@@ -1,6 +1,3 @@
-.main {
-    /* overflow-x:hidden; */
-}
 .work{
     word-wrap: break-word; 
     margin-top : 3rem;
@@ -22,10 +19,6 @@
 }
 
 
-.work__img-container:nth-child(even){
-    box-shadow: -2px 2px 2px 2px rgba(0,0,0,0.5);
-}
-
 .work__img{
     display: block;
     width: 100%;
@@ -37,8 +30,6 @@
     padding: 10px;
     text-align: left;
 }
-
-
 
 
 .work__info__title{
