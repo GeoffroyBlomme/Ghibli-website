@@ -7,9 +7,6 @@ body{
     background:  rgb(197,203,227);
 }
 
-main{
-     /* height: calc(100vh - 3rem);  */
-}
 .modal{
     display: none;
     position: fixed;
@@ -56,10 +53,6 @@ main{
 .modal__elt a::after{
     content: url("./images/arrow-right.svg");
     width: 1rem;
-    /*
-    align-items: center;
-    position: absolute;
-    right: 0; */
 }
 
 .modal span{
